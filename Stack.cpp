@@ -28,6 +28,8 @@ int main()
     //std::cout << l.pop() << "\n";
     //l.push(6);
     l.printList();
+    Stack<int> a(l);
+    a.printList();
     while (!l.isEmpty())
         std::cout << l.pop() << "\t";
 

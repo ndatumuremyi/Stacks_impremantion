@@ -65,7 +65,7 @@ Stack<T>::Stack(const Stack& l)
 		Node<T>* current = head;
 		while (p)
 		{
-			Node<T>* newNode = new Node;
+			Node<T>* newNode = new Node<T>;
 			newNode->data = p->data;
 			newNode->next = nullptr;
 			current = newNode;
