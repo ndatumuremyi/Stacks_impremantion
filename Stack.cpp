@@ -6,7 +6,7 @@
 #include<cstdlib>
 #include<ctime>
 
-
+using namespace std;
 
 int main()
 {
@@ -30,6 +30,8 @@ int main()
     l.printList();
     Stack<int> a(l);
     a.printList();
+    
+
     while (!l.isEmpty())
         std::cout << l.pop() << "\t";
 
